@@ -1,0 +1,18 @@
+ {
+      "assetClass": { "type": "string" },
+      "instrumentId": { "type": "string" },
+      "instrumentName": { "type": "string" },
+      "orderId": { "type": "string" },
+      "orderSubmitted": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "purchaseType": {
+        "type": "string",
+        "enum": ["BUY", "SELL"]
+      },
+      "tradePrice": { "type": "number" },
+      "tradeQuantity": { "type": "number" },
+      "counterpartyName": { "type": "string" },
+      "dataSourceName": { "type": "string" },
+    }
