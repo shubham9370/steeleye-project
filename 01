@@ -1,0 +1,59 @@
+  {
+      "properties": {
+        "&id": {
+          "type": "keyword"
+        },
+        "&model": {
+          "type": "keyword"
+        },
+        "assetClass": {
+          "type": "keyword"
+        },
+        "counterparty": {
+          "properties": {
+            "name": {
+              "type": "keyword"
+            }
+          }
+        },
+        "dataSource": {
+          "properties": {
+            "name": {
+              "type": "keyword"
+            }
+          }
+        },
+        "instrumentId": {
+          "type": "keyword"
+        },
+        "instrumentName": {
+          "type": "keyword"
+        },
+        "orderId": {
+          "type": "keyword"
+        },
+        "purchaseType": {
+          "type": "keyword"
+        },
+        "timestamps": {
+          "properties": {
+            "orderSubmitted": {
+              "type": "date"
+            }
+          }
+        },
+        "tradeData": {
+          "properties": {
+            "quantity": {
+              "type": "integer"
+            },
+            "price": {
+              "type": "integer"
+            },
+            "trader": {
+              "type": "keyword"
+            }
+          }
+        }
+      }
+    }
